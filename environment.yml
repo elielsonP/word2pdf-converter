@@ -1,0 +1,11 @@
+name: word2pdf-env
+channels:
+  - defaults
+  - conda-forge
+dependencies:
+  - python
+  - pip
+  - pip:
+    - python-docx2pdf
+    - python-docx
+    - pyyaml
